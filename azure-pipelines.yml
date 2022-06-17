@@ -21,4 +21,4 @@ steps:
     azureSubscription: 'Microsoft Azure Enterprise OL Dev(08339a29-3709-4f55-b71a-d3b34c89fe5a)'
     appType: 'webAppLinux'
     appName: 'my-app-dotnet-win2'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    package: '$(pipeline.workspace)/**/*.zip'
